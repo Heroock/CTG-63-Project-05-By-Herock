@@ -1,0 +1,203 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All =========================== */
+
+body {
+	background: url(images/background.png) repeat fixed;
+}
+
+.squre {
+	background: rgba(0, 0, 0, 0.46);
+	border-radius: 10px;
+	border: 5px solid white;
+	height: 500px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: 3s;
+	width: 600px;
+}
+
+.squre:hover {
+	box-shadow: 0px 0px 100px gray;
+	height: 550px;
+	width: 650px;
+	cursor: pointer;
+}
+
+.head {
+	overflow: hidden;
+}
+
+.left-side {
+	float: left;
+}
+
+.left-side h1 {
+	background: rgba(94, 115, 54, 0.5);
+	border-radius: 10px;
+	border: 3px solid white;
+	color: white;
+	font-size: 30px;
+	margin-left: -2px;
+	margin-top: -2px;
+	padding: 10px;
+	transition: 2s;
+}
+
+.left-side h1:hover {
+	background: rgba(90, 168, 204, 0.4);
+	border: 5px solid red;
+	color: #21ec00;
+	font-weight: bold;
+	transform: translateX(50px);
+	cursor: pointer;
+}
+
+.right-side {
+	float: right;
+}
+
+.right-side h1 {
+	background: rgba(94, 115, 54, 0.5);
+	border-radius: 10px;
+	border: 3px solid white;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-weight: normal;
+	margin-right: -2px;
+	margin-top: -2px;
+	padding: 17.5px 10px;
+	transition: 2s;
+}
+
+.right-side h1:hover {
+	background: rgba(90, 168, 204, 0.4);
+	border: 5px solid red;
+	color: #21ec00;
+	font-weight: bold;
+	transform: translateX(-50px);
+}
+
+/* ==================== General CSS For All End Here ======================= */
+
+/* =========================== Body Animation Area ========================= */
+
+.body {
+	clear: both;
+}
+
+@keyframes bangla-color {
+	0% {
+		color: #3D1866;
+	}
+	10% {
+		color: #1F2223;
+		transform: rotateY(60deg) skewX(20%);
+	}
+	20% {
+		color: #1F2E53;
+	}
+	30% {
+		color: #D4DCA9;
+		transform: rotate(90deg);
+	}
+	40% {
+		color: #F5D300;
+		transform: rotate(-360deg);
+	}
+	50% {
+		color: #903768;
+		transform: translateY(-120%);
+	}
+	60% {
+		color: #6F00A9;
+		transform: translateY(120%);
+	}
+	70% {
+		color: #790030;
+		transform: translateX(30%);
+	}
+	80% {
+		color: #F524FF;
+		transform: translateX(-30%);
+	}
+	90% {
+		color: #730D14;
+		transform: scale(.1);
+	}
+	100% {
+		color: #F64D4E;
+		transform: scale(2);
+	}
+}
+
+.animation {
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-name: bangla-color;
+	cursor: pointer;
+	font-family: American Typewriter;
+	font-size: 55px;
+	font-weight: bold;
+	left: 16%;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	transition: 5s;
+}
+
+/* ======================= Body Animation Area End Here ==================== */
+
+/* =============================== Button Area ============================= */
+
+.squre p {
+	color: yellow;
+	font-size: 16px;
+	left: 1%;
+	position: absolute;
+	top: 95%;
+	cursor: pointer;
+}
+
+.button {
+	cursor: pointer;
+	left: 78.2%;
+	position: absolute;
+	top: 83.88%;
+	transition: 2s;
+}
+
+.button:hover {
+	background: coral;
+	border: 5px solid red;
+	color: red;
+	left: 79.5%;
+	top: 85%;
+	transform: translateX(50px);
+}
+
+.glyphicon {
+	font-size: 50px;
+}
+
+.glyphicon-arrow-right {
+	background: rgba(7, 245, 48, 0.65);
+	border-radius: 50%;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/* ========================== Button Area End Here ========================= */
+
+/* ========================== CSS Styling End Here =========================== */
